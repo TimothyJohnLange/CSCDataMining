@@ -102,6 +102,7 @@ def joined_curves(torque, temp):
     t_list = list(torque)
     T_list = list(temp)
     
+	# Manually insert torque and temp mean and std respectively
     t_norm = num_range_equal(t_list, 4.3, 2.824)
     T_norm = num_range_equal(T_list, 204.57, 9.347)
     
